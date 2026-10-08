@@ -202,7 +202,7 @@ BuildSetupFiles was written from scratch as an interface to Microsoft's MAKECAB 
 #include <setupapi.h>
 #include <commctrl.h>
 #include <limits.h>
-#include "..\ExDll\ExDll.h"
+#include "../exdll.h"
 
 // Link with SetupAPI.Lib - provides our workhorse functions, SetupIterateCabinet and SetupPromptForDisk.
 #pragma comment (lib, "setupapi.lib")
