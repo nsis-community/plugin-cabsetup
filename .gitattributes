@@ -1,0 +1,6 @@
+* text=auto
+
+*.ico binary
+*.zip binary
+
+/README.md export-ignore
